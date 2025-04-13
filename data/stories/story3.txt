@@ -1,0 +1,14 @@
+# story_3.txt
+# Evolving Through Design Patterns
+
+Carlos was leading a team developing a new financial reporting system. Initially, they built a monolithic application with tightly coupled components, which was quick to develop but became increasingly difficult to maintain as requirements evolved.
+
+The first improvement came when Carlos introduced the Strategy pattern to encapsulate different calculation algorithms. This allowed them to switch between different calculation methods without modifying the core code, making the system more flexible.
+
+As the application grew, they encountered issues with managing complex object creation. Carlos refactored the code to use the Factory Method pattern, which standardized the object creation process and decoupled the client code from specific implementation classes.
+
+Later, they faced challenges with component dependencies. By implementing the Dependency Injection pattern, they improved testability and further reduced coupling between components.
+
+Finally, to address the increasing complexity of the user interface, the team applied the Observer pattern to create a responsive UI that automatically updated when the underlying data changed.
+
+Through this evolutionary process, Carlos's team learned that design patterns aren't just academic concepts but practical tools that solve real-world software engineering problems. Each pattern addressed specific challenges while contributing to a more maintainable, flexible, and robust architecture.
